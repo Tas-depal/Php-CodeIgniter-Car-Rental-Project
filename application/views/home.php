@@ -19,7 +19,7 @@
           <a class="nav-link" href="<?php echo site_url()?>home">Home<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="<?php echo site_url()?>signup">Signup</a>
+          <a class="nav-link" href="<?php echo site_url()?>Signup">Signup</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="<?php echo site_url()?>login">Login</a>

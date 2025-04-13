@@ -50,5 +50,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |		my-controller/my-method	-> my_controller/my_method
 */
 $route['default_controller'] = 'home';
+$route['admin/admin_dashboard'] = 'admin/AdminDashboard';
+$route['admin/add_car'] = 'admin/AddCar';
+$route['admin/add_car/car_info'] = 'admin/AddCar/car_info';
+$route['admin/admin_login'] = 'admin/AdminLogin';
+$route['admin/edit_car'] = 'admin/EditCar';
+$route['admin/manage_car/show_car_details'] = 'admin/ManageCar/show_car_details';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
